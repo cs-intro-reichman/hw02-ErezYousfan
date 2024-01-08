@@ -5,9 +5,11 @@
  */
 public class OneOfEach {
 	public static void main (String[] args) {
-		//// Put your code here
+		// TODO: nice solution!
+
+		//// Put your code here TODO: remove unused comment
 		int num = (int) (Math.random() * 2);
-		boolean boy = num == 0; 
+		boolean boy = num == 0; // TODO: more clean to write boolean boy = (num == 0);
 		boolean girl = !boy;
 		int kidsNum = 1;
 		if (boy) {
