@@ -6,7 +6,7 @@ public class InOrder {
 	public static void main (String[] args) {
 		//// Write your code here
 		int firstRand = (int) (Math.random() * 10);
-		int secondRand = firstRand + 1;
+		int secondRand = firstRand + 1; // TODO: maybe more natural would be to use do while instead of this trick
 		while (firstRand < secondRand) {
 			System.out.print(firstRand);
 			secondRand = (int) (Math.random() * 10);
